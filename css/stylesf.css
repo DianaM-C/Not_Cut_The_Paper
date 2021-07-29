@@ -1,0 +1,47 @@
+
+/* Formulario de Contacto */
+aside {
+    width: 45%;
+    float: right;
+    padding: 2% 6% 22% 6%;
+    text-align: center;
+    background: linear-gradient(#9CA2B0, #6c7280);
+}
+
+aside h1 {
+    font-weight: 300;
+    font-size: 2.5em;
+    color: #F1F1F1;
+    height: auto;
+}
+
+aside form {
+    text-align: left;
+    padding: 10%;
+    width: 100%;
+    background: #FEF4F3;
+    border-radius: .3em;
+}
+
+aside form label {
+    font-size: .8em;
+    line-height: 2em;
+    margin-left: 1em
+}
+
+aside form input, textarea, select {
+    width: 100%;
+    padding: .5em .8em;
+    font-size: 1em;
+    border-radius: .3em;
+    border: none;
+    background: #9ca2b091;
+    color: #000;
+    transition: .3s;
+}
+
+form .button:hover {
+    cursor: pointer;
+    background: #6c7280;
+    color: #FEF4F3;
+}

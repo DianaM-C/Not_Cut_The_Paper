@@ -1,0 +1,31 @@
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* PARAGRAPHS */
+.paragraphs {
+    font-size: 18pt;
+    padding: 30px 70px;
+    color: #132240;
+}
+
+h1 {
+    font-size: 25pt;
+    font-weight: bold;
+    color: #132240;
+}
+
+.two {
+    width: 80%;
+    margin: 5% 10%;
+}
+
+/* Pié de página */
+footer{
+    background: #ebbf41;
+}

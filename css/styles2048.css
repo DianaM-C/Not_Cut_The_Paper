@@ -1,0 +1,144 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #28292b;
+    color: #F4F4F4;
+    width: 100%;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* PARAGRAPHS */
+.paragraphs {
+    font-size: 18pt;
+    color: #F4F4F4;
+}
+
+.tt {
+    font-size: 55pt;
+    font-weight: bold;
+    color: #F4F4F4;
+}
+
+h1 {
+    transition: .3s;
+}
+
+h1:hover {
+    color: #ffc6c6;
+}
+
+/* LITTLE MENU */
+.all-menu {
+    float: center;
+    display: flex;
+    background: #FEF4F3;
+    width: 98.45%;
+    padding: 10px;
+    height: 105px;
+}
+
+.little-menu {
+    width: 100%;
+}
+
+.bien {
+    color: #28292b;
+    margin: 0 1.3em 0 1em;
+    font-size: 18pt;
+    font-weight: 400;
+    padding: 8px;
+}
+
+.menu {
+    font-size: 1em;
+    background: #FEF4F3;
+    float: left;
+    display: flex;
+    width: 100%;
+}
+
+.menu li {
+    margin: 0;
+    height: 1.4em;
+    padding: 5px 15px;
+    list-style: none;
+    text-decoration: none;
+    background: #FEF4F3;
+    color: #28292b;
+}
+
+.menu li a {
+    color: #28292b;
+    font-weight: 400;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.menu li a:hover {
+    color: #28292b;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.menu li:hover {
+    background: #e2cfcf;
+    color: #28292b;
+    transition: .5s;
+}
+
+.problem {
+    text-align: center;
+    width: 7em;
+}
+
+.menu1 {
+    width: 8.85em;
+    display: none;
+    position:relative;
+    top: .35em;
+    right: .9em;
+}
+
+.menu li:hover > ul {
+    display: block;
+}
+
+
+.one {
+    padding: .3em;
+    margin-right: 20px;
+}
+
+/* Imágenes de redirección a 2048 */
+a img:hover {
+    animation: grow .3s infinite alternate;
+}
+
+@keyframes grow {
+    0% {
+        transform: scale(0.95);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Pié de página */
+footer{
+    background: #ebbf41;
+    color: #28292b;
+}

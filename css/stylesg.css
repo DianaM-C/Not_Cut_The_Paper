@@ -1,0 +1,262 @@
+body{
+    color: #FEF4F3;
+    width: 100%;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: #FEF4F3;
+}
+
+/* LITTLE MENU */
+.all-menu {
+    float: center;
+    display: flex;
+    background: #C47565;
+    width: 98.45%;
+    padding: 10px;
+    height: 105px;
+}
+
+.little-menu {
+    width: 100%;
+}
+
+.bien {
+    color: #FEF4F3;
+    margin: 0 1.3em 0 1em;
+    padding: 8px;
+}
+
+.menu {
+    font-size: 1em;
+    background: #C47565;
+    float: left;
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.menu li {
+    height: 1.4em;
+    padding: 5px 15px;
+    list-style: none;
+    text-decoration: none;
+    background: #C47565;
+    color: #FEF4F3;
+}
+
+.menu li a {
+    color: #FEF4F3;
+    font-weight: 400;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.menu li a:hover {
+    color: #FEF4F3;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.menu li:hover {
+    background: #865648;
+    color: #FEF4F3;
+    transition: .5s;
+}
+
+.problem {
+    text-align: center;
+    width: 7em;
+}
+
+.menu1 {
+    width: 8.85em;
+    display: none;
+    position:relative;
+    top: .35em;
+    right: .9em;
+}
+
+.menu li:hover > ul {
+    display: block;
+}
+
+.one {
+    padding: .3em;
+    margin-right: 20px;
+}
+
+/* IMÁGENES DE LA GALERÍA */
+.all-img a {
+    text-decoration: none;
+}
+
+.img1 {
+    background-image: url(../img/ナンセンス文学\ -\ Eve\ MV\ 5.png);
+    background-repeat: no-repeat center center;
+    background-size: contain;
+    margin-bottom: 1em;
+    padding: 2.6em .5em;
+    text-shadow: black 1px 1px 10px;
+    transition: .3s;
+}
+
+.img1:hover {
+    background-image: url(../img/ナンセンス文学\ -\ Eve\ MV.png);
+    background-repeat: no-repeat center center;
+    background-size: contain;
+    margin-bottom: 1em;
+    padding: 2.6em .5em;
+    text-shadow: black 1px 1px 10px;
+    transition: .3s;
+}
+
+.img2 {
+    background-image: url(../img/Last\ Dance\ 5.png);
+    background-repeat: no-repeat center center;
+    background-size: contain;
+    margin-bottom: 1em;
+    padding: 2.6em .5em;
+    text-shadow: black 1px 1px 10px;
+    transition: .3s;
+}
+
+.img2:hover {
+    background-image: url(../img/Last\ Dance\ 6.png);
+    background-repeat: no-repeat center center;
+    background-size: contain;
+    margin-bottom: 1em;
+    padding: 2.6em .5em;
+    text-shadow: black 1px 1px 10px;
+    transition: .3s;
+}
+
+.img3 {
+    background-image: url(../img/夜は仄か\ -\ Eve\ MV\ 1.png);
+    background-repeat: no-repeat center center;
+    background-size: contain;
+    margin-bottom: 1em;
+    padding: 1.89em .5em;
+    text-shadow: black 1px 1px 10px;
+    transition: .3s;
+}
+
+.img3:hover {
+    background-image: url(../img/夜は仄か\ -\ Eve\ MV\ 2.png);
+    background-repeat: no-repeat center center;
+    background-size: contain;
+    margin-bottom: 1em;
+    padding: 1.89em .5em;
+    text-shadow: black 1px 1px 10px;
+    transition: .3s;
+}
+
+.img4 {
+    background-image: url(../img/Tokyo\ Getto\ 1.png);
+    background-repeat: no-repeat center center;
+    background-size: contain;
+    margin-bottom: 1em;
+    padding: 1.89em .5em;
+    text-shadow: black 1px 1px 10px;
+    transition: .3s;
+}
+
+.img4:hover {
+    background-image: url(../img/Tokyo\ Getto\ 2.png);
+    background-repeat: no-repeat center center;
+    background-size: contain;
+    margin-bottom: 1em;
+    padding: 1.89em .5em;
+    text-shadow: black 1px 1px 10px;
+    transition: .3s;
+}
+
+.img5 {
+    background-image: url(../img/1279x722\ 1.png);
+    background-repeat: no-repeat center center;
+    background-size: contain;
+    margin-bottom: 1em;
+    padding: 2.6em .5em;
+    text-shadow: black 1px 1px 10px;
+    transition: .3s;
+}
+
+.img5:hover {
+    background-image: url(../img/1279x722\ 2.png);
+    background-repeat: no-repeat center center;
+    background-size: contain;
+    margin-bottom: 1em;
+    padding: 2.6em .5em;
+    text-shadow: black 1px 1px 10px;
+    transition: .3s;
+}
+
+.img6 {
+    background-image: url(../img/Razón\ de\ ser\ 1.png);
+    background-repeat: no-repeat center center;
+    background-size: contain;
+    margin-bottom: 1em;
+    padding: 2.6em .5em;
+    text-shadow: black 1px 1px 10px;
+    transition: .3s;
+}
+
+.img6:hover {
+    background-image: url(../img/Razón\ de\ ser\ 2.png);
+    background-repeat: no-repeat center center;
+    background-size: contain;
+    margin-bottom: 1em;
+    padding: 2.6em .5em;
+    text-shadow: black 1px 1px 10px;
+    transition: .3s;
+}
+
+.img7 {
+    background-image: url(../img/UNDERGRAUND\ 6.png);
+    background-repeat: no-repeat center center;
+    background-size: contain;
+    margin-bottom: 1em;
+    padding: 2.6em .5em;
+    text-shadow: black 1px 1px 10px;
+    transition: .3s;
+}
+
+.img7:hover {
+    background-image: url(../img/UNDERGRAUND\ 7.png);
+    background-repeat: no-repeat center center;
+    background-size: contain;
+    margin-bottom: 1em;
+    padding: 2.6em .5em;
+    text-shadow: black 1px 1px 10px;
+    transition: .3s;
+}
+
+.img8 {
+    background-image: url(../img/Dramaturgy\ 8.png);
+    background-repeat: no-repeat center center;
+    background-size: contain;
+    margin-bottom: 1em;
+    padding: 2.6em .5em;
+    text-shadow: black 1px 1px 10px;
+    transition: .3s;
+}
+
+.img8:hover {
+    background-image: url(../img/Dramaturgy\ 9.png);
+    background-repeat: no-repeat center center;
+    background-size: contain;
+    margin-bottom: 1em;
+    padding: 2.6em .5em;
+    text-shadow: black 1px 1px 10px;
+    transition: .3s;
+}
