@@ -122,7 +122,7 @@ p {
 }
 
 .img2 {
-    background-image: url(../img/Last\ Dance\ 5.png);
+    background-image: url(/img/Last\ Dance\ 5.png);
     background-repeat: no-repeat center center;
     background-size: contain;
     margin-bottom: 1em;
@@ -132,7 +132,7 @@ p {
 }
 
 .img2:hover {
-    background-image: url(../img/Last\ Dance\ 6.png);
+    background-image: url(/img/Last\ Dance\ 6.png);
     background-repeat: no-repeat center center;
     background-size: contain;
     margin-bottom: 1em;
