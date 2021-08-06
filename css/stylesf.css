@@ -2,36 +2,34 @@
     box-sizing: border-box;
 }
 
-/* Formulario de Contacto */
-aside {
-    height: 100vh;
-    padding: 2% 6% 22% 6%;
-    text-align: center;
+
+body {
     background: linear-gradient(#9CA2B0, #6c7280);
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
-aside h1 {
+/* Formulario de Contacto */
+h1 {
     font-weight: 300;
     font-size: 2.5em;
     color: #F1F1F1;
-    height: auto;
 }
 
-aside form {
+form {
     text-align: left;
-    padding: 10%;
     width: 100%;
     background: #FEF4F3;
     border-radius: .3em;
 }
 
-aside form label {
+form label {
     font-size: .8em;
     line-height: 2em;
     margin-left: 1em
 }
 
-aside form input, textarea, select {
+form input, textarea, select {
     width: 100%;
     padding: .5em .8em;
     font-size: 1em;
