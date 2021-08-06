@@ -112,6 +112,21 @@ h1 {
     margin-right: 20px;
 }
 
+/* Botón de redirección al formulario */
+.form {
+    animation: glow .4s infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
+
 /* Vídeo */
 video {
     width: 100%;
