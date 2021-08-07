@@ -3,5 +3,5 @@
 ?>
 
 <script>
-    window.location = '/pages/index.html'
+    window.location = 'index.html'
 </script>
